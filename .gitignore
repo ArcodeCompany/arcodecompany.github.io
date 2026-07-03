@@ -31,3 +31,6 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
+
+# Original client logo sources (pre-normalization); normalized PNGs are committed
+images/clients/src/

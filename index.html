@@ -60,6 +60,7 @@
                             <li class="active"><a href="#home">Top</a></li>
                             <li><a href="#about">Who are we?</a></li>
                             <li><a href="#services">Our services</a></li>
+                            <li><a href="#clients">Our work</a></li>
                             <li><a href="#contact">Contact us</a></li>
                         </ul>
                     </div>
@@ -105,8 +106,8 @@
                 <!-- About Section -->
                 <section class="page-section bg-dark light-content" id="about">
                     <div class="container relative">
-                        
-                        <div class="mb-140 mb-sm-70">
+
+                        <div class="mb-0">
                             <div class="row section-text">
                             
                                 <div class="col-md-12 col-lg-4 mb-md-50 mb-xs-30">
@@ -132,7 +133,7 @@
                 
                 
                 <!-- Divider -->
-                <hr class="mt-0 mb-0 white" />
+                <hr class="mt-0 mb-0 white" style="display:none;" />
                 <!-- End Divider -->
                 
                 
@@ -216,12 +217,12 @@
                 
                 
                 <!-- Divider -->
-                <hr class="mt-0 mb-0 white" />
+                <hr class="mt-0 mb-0 white" style="display:none;" />
                 <!-- End Divider -->
 
 
                 <!-- Salesforce Partner Band -->
-                <section class="page-section bg-dark-lighter light-content" id="partner" style="padding-top:100px;padding-bottom:100px;">
+                <section class="page-section bg-dark light-content" id="partner" style="padding-top:100px;padding-bottom:100px;">
                     <div class="container relative">
                         <div class="text-center mb-60 mb-sm-40">
                             <h2 class="section-title">Certified Cloud Expertise</h2>
@@ -242,6 +243,50 @@
                     </div>
                 </section>
                 <!-- End Salesforce Partner Band -->
+
+
+                <!-- Divider -->
+                <hr class="mt-0 mb-0 white" style="display:none;" />
+                <!-- End Divider -->
+
+
+                <!-- Clients Section -->
+                <section class="page-section bg-dark-lighter light-content" id="clients">
+                    <div class="container relative">
+
+                        <div class="text-center mb-80 mb-sm-50">
+                            <h2 class="section-title">Work with Excellence</h2>
+                            <p class="section-title-descr">The organizations that have trusted us to deliver.</p>
+                        </div>
+
+                        <style>
+                            .clients-wall{display:grid;grid-template-columns:repeat(4,1fr);gap:34px 44px;max-width:1000px;margin:0 auto;align-items:center;}
+                            .clients-wall .client{display:flex;align-items:center;justify-content:center;}
+                            /* Every logo sits on an identical canvas; rendered as a uniform white mark, brightening on hover */
+                            .clients-wall .client img{width:100%;max-width:200px;height:auto;filter:brightness(0) invert(1);opacity:.6;transition:opacity .3s,transform .3s;}
+                            .clients-wall .client:hover img{opacity:1;transform:scale(1.04);}
+                            @media (max-width:991px){.clients-wall{grid-template-columns:repeat(3,1fr);gap:30px 36px;}}
+                            @media (max-width:600px){.clients-wall{grid-template-columns:repeat(2,1fr);gap:26px 24px;}}
+                        </style>
+
+                        <div class="clients-wall wow fadeIn">
+                            <div class="client"><img src="images/clients/informatica.png" alt="Informatica"></div>
+                            <div class="client"><img src="images/clients/avidity.png" alt="Avidity Biosciences"></div>
+                            <div class="client"><img src="images/clients/intelizen.png" alt="Intelizen"></div>
+                            <div class="client"><img src="images/clients/lanvale.png" alt="Lanvale"></div>
+                            <div class="client"><img src="images/clients/hcsc.png" alt="HCSC"></div>
+                            <div class="client"><img src="images/clients/nyu-langone.png" alt="NYU Langone Health"></div>
+                            <div class="client"><img src="images/clients/point32.png" alt="Point32Health"></div>
+                            <div class="client"><img src="images/clients/abbvie.png" alt="AbbVie"></div>
+                            <div class="client"><img src="images/clients/healthfirst.png" alt="Healthfirst"></div>
+                            <div class="client"><img src="images/clients/mckesson.png" alt="McKesson"></div>
+                            <div class="client"><img src="images/clients/pophealthcare.png" alt="PopHealthcare"></div>
+                            <div class="client"><img src="images/clients/northwell.png" alt="Northwell Health"></div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End Clients Section -->
 
 
                 <!-- Contact Section -->
